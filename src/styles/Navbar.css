@@ -36,3 +36,13 @@
 .navbar-wrapper a.active {
   color: rgb(250, 193, 250);
 }
+@media only screen and (max-width: 600px) {
+  .top-left h3 {
+    font-size: 15px;
+    margin-left: 0.1rem;
+  }
+  .top-right a {
+    font-size: 16px;
+    letter-spacing: normal;
+  }
+}

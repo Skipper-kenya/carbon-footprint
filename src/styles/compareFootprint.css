@@ -20,6 +20,16 @@
   justify-content: center;
   align-items: center;
 }
-.compareCont h3{
-    letter-spacing: 1px;
+.compareCont h3 {
+  letter-spacing: 1px;
+}
+@media only screen and (max-width: 600px) {
+  .compareCont {
+    width: 90%;
+  }
+  .compareCont h3 {
+    font-size: 15px;
+    width: 95%;
+    margin: 0 auto;
+  }
 }
