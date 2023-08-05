@@ -1,0 +1,139 @@
+.calculate-wrapper {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+}
+.calculate-wrapper h3 {
+  margin: 2rem 0;
+  letter-spacing: 1px;
+  padding-bottom: 0.3rem;
+  border-bottom: 3px solid seagreen;
+}
+.calculate-wrapper fieldset {
+  padding: 15px;
+  width: 95%;
+  border-color: seagreen;
+}
+.calculate-wrapper fieldset legend {
+  font-family: arial;
+  font-size: 18px;
+  letter-spacing: 1px;
+}
+.calculate-wrapper form {
+  display: flex;
+  width: 90%;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.calculate-wrapper form label {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+.selects {
+  margin: 1rem 0;
+  display: flex;
+  width: 100%;
+  height: auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.select-opt {
+  height: 3rem;
+  width: 49%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.select-opt select {
+  width: 30%;
+  padding: 5px;
+  border: 1px solid seagreen;
+  outline: 0;
+}
+.inputs {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.input {
+  height: 4rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 49%;
+}
+.input input {
+  width: 30%;
+  padding: 10px;
+  outline: 0;
+  border: 1px solid seagreen;
+}
+.radios {
+  margin: 1rem 0;
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+}
+.radios p {
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0.5rem 0;
+}
+.lastInput {
+  margin: 1rem 0;
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.lastInput input {
+  padding: 10px;
+  border: 1px solid seagreen;
+  outline: 0;
+}
+.calculate-wrapper button {
+  background-color: seagreen;
+  width: 50%;
+  margin: 0 auto;
+  padding: 15px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.calculate-wrapper button:hover {
+  background-color: cadetblue;
+  transition: 0.4s;
+}
+@media only screen and (max-width: 600px) {
+  .calculate-wrapper h3 {
+    font-size: 16px;
+    letter-spacing: normal;
+  }
+  .select-opt{
+   width:100%;
+   height: auto;
+   margin-bottom: 2rem;
+  }
+  .input {
+    height: auto;
+    margin-bottom: 2rem;
+    width:100%;
+  }
+  .radios {
+    width: 100%;
+  }
+  .lastInput{
+    width: 100%;
+  }
+}

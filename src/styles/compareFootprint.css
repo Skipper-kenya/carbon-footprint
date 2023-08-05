@@ -1,0 +1,25 @@
+.compare-wrapper {
+  width: 100%;
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.compare-wrapper h3 {
+  margin: 1rem 0;
+  letter-spacing: 1px;
+}
+.compareCont {
+  width: 500px;
+  border-bottom: 3px solid magenta;
+  border-top: 3px solid magenta;
+  height: 400px;
+  box-shadow: 0 2px 7px;
+  border-radius: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.compareCont h3{
+    letter-spacing: 1px;
+}

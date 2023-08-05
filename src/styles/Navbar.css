@@ -1,0 +1,38 @@
+.navbar-wrapper {
+  width: 100%;
+  height: 100px;
+  position: sticky;
+  top: 0;
+  display: flex;
+  overflow: hidden;
+  background-color: rgb(118, 175, 118);
+  justify-content: space-around;
+  align-items: center;
+}
+.top-left {
+  width: 45%;
+}
+.top-right {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.top-left h3 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  font-style: italic;
+}
+.top-right a {
+  text-decoration: none;
+  letter-spacing: 1px;
+  color: black;
+  font-family: arial;
+  font-size: 18px;
+}
+.top-right a:hover {
+  color: rgb(250, 193, 250);
+  transition: 0.3s;
+}
+.navbar-wrapper a.active {
+  color: rgb(250, 193, 250);
+}
