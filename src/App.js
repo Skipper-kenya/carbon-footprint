@@ -8,6 +8,7 @@ import GlobalStates from "./context/GlobalStates";
 import CalculateFootprints from "./pages/CalculateFootprints";
 import CompareFootprints from "./pages/CompareFootprints";
 function App() {
+//footprint emitter
   return (
     <div className="body-wrapper">
       <GlobalStates>
